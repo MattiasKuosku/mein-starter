@@ -1,0 +1,32 @@
+{:deps {org.clojure/clojure {:mvn/version "1.10.1"}
+        org.clojure/data.json {:mvn/version "0.2.7"}
+        seancorfield/next.jdbc {:mvn/version "1.0.13"}
+        org.xerial/sqlite-jdbc {:mvn/version "3.30.1"}
+        http-kit {:mvn/version "2.3.0"}
+        compojure {:mvn/version "1.6.1"}
+        org.clojure/test.check {:mvn/version "0.9.0"}
+        ring-cors {:mvn/version "0.1.13"}
+        criterium {:mvn/version "0.4.5"}
+        
+        org.postgresql/postgresql {:mvn/version "42.2.12"}
+        
+        com.microsoft.sqlserver/mssql-jdbc {:mvn/version "8.2.0.jre8"}
+        
+        alc.x-as-tests {:git/url "https://github.com/Saikyun/alc.x-as-tests"
+                        :sha "e18c315453c65b6bf5eed040b49cf8716fd34cdf"}
+        
+        ;; dev-dependencies
+        miracle-save {:mvn/version "0.0.1"}}
+ 
+ :paths ["src" "resources"] 
+ 
+ :aliases {:socket {:jvm-opts ["-Dclojure.server.repl={:port,5555,:accept,clojure.core.server/repl}"]}
+           :client {:deps {cljs-bean       {:mvn/version "1.5.0"}
+                           funcool/promesa {:mvn/version "5.1.0"}
+                           hiccups         {:mvn/version "0.3.0"}
+                           alc.x-as-tests {:git/url "https://github.com/Saikyun/alc.x-as-tests"
+                                           :sha "e18c315453c65b6bf5eed040b49cf8716fd34cdf"}
+                           saikyun/mein {:git/url "https://github.com/Saikyun/mein"
+                                         :sha "9a1bb183ed5eb054ce1083918794e21c817a4b84"}
+                           #_{:local/root "/Users/jona/programmering/cljs/mein"}
+                           thheller/shadow-cljs {:mvn/version "2.10.19"}}}}}

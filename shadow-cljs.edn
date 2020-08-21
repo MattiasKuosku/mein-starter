@@ -1,0 +1,15 @@
+{:deps {:aliases [:client]}
+ 
+ :builds
+ {:app {:target :browser
+        
+        :output-dir "resources/public/js"
+        :asset-path "js"
+        :modules {:main {:init-fn webapp.landing/init}}
+        
+        :devtools {:repl-init-ns webapp.landing
+                   :repl-pprint true
+                   :after-load webapp.landing/start
+                   :before-load webapp.landing/stop
+                   :http-root "resources/public"
+                   :http-port 8020}}}}
