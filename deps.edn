@@ -27,6 +27,6 @@
                            alc.x-as-tests {:git/url "https://github.com/Saikyun/alc.x-as-tests"
                                            :sha "adb7dc3d2be164a5e289449a79f08da4f75e5a0c"}
                            saikyun/mein {:git/url "https://github.com/Saikyun/mein"
-                                         :sha "bb691bac5bb04a84583be0290e4b2c003b9fb831"}
+                                         :sha "593515674f4c284d9262d6945af43d2213afc925"}
                            #_{:local/root "/Users/jona/programmering/cljs/mein"}
                            thheller/shadow-cljs {:mvn/version "2.10.19"}}}}}
