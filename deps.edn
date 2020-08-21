@@ -13,7 +13,7 @@
         com.microsoft.sqlserver/mssql-jdbc {:mvn/version "8.2.0.jre8"}
         
         alc.x-as-tests {:git/url "https://github.com/Saikyun/alc.x-as-tests"
-                        :sha "e18c315453c65b6bf5eed040b49cf8716fd34cdf"}
+                        :sha "adb7dc3d2be164a5e289449a79f08da4f75e5a0c"}
         
         ;; dev-dependencies
         miracle-save {:mvn/version "0.0.1"}}
@@ -25,8 +25,8 @@
                            funcool/promesa {:mvn/version "5.1.0"}
                            hiccups         {:mvn/version "0.3.0"}
                            alc.x-as-tests {:git/url "https://github.com/Saikyun/alc.x-as-tests"
-                                           :sha "e18c315453c65b6bf5eed040b49cf8716fd34cdf"}
+                                           :sha "adb7dc3d2be164a5e289449a79f08da4f75e5a0c"}
                            saikyun/mein {:git/url "https://github.com/Saikyun/mein"
-                                         :sha "9a1bb183ed5eb054ce1083918794e21c817a4b84"}
+                                         :sha "bb691bac5bb04a84583be0290e4b2c003b9fb831"}
                            #_{:local/root "/Users/jona/programmering/cljs/mein"}
                            thheller/shadow-cljs {:mvn/version "2.10.19"}}}}}
